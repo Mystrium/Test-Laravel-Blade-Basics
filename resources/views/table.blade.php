@@ -26,7 +26,8 @@
                                     <td>{{ $user->created_at }}</td>
                                 </tr>
                             @endforeach
-                            @if(count($users)==0)
+
+                            @if(count($users) == 0)
                                 <tr>
                                     <td colspan="3">No content.</td>
                                 </tr>
